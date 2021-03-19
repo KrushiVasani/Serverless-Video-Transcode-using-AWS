@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "serverless-video-transcode",
+  "private_key_id": "a9e912de4eb535be2c8d37cc4aa1ec935964b12b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3dGcjQwSAUP6H\n8TDVw2ymEqa7Fjmp2QjBL7gQGuAmACOHikRyY6Z9Dz723YBWGpw6LIVnlS/TKveM\nsC8LAAhDVK5HeX+u5aHai/MuS9YEt5Mwp8coRqddxv6dkxcnyOLxqT+UcH3oEhJY\nH6NtKYHBvtWah0A679GWyhk0H/iBWaQM0POz24V6UBRbgEDXCQoqZDvPOmcI8txK\ndB9bChLqBcNJrUClt5RKI8s/moi0Rlke0h9xyr4HzrOSC9HNI5P/ATO/lbes63FD\nl3lBp+sfs+DcNhROE7DAuLBY2Hcj4vkpsL72FbtzB2I2RcqL5qpsIWO4OKAExYNL\nwQ7OOuJNAgMBAAECggEAGJHbL1aOL4ZJdJj5pqN39W0JjgRtwCDsYn063FNRIl3B\n5GkA/kX42gZ08xia081YD5V/X25UW6aFRX8iKcm9EZFxjuqHjnu8N9om/VQUS4jv\nimRqEKuXxkA8wQteXkpyFJYLiRygzDhBYzKHj3rv4SwnDP1gvZP5YMXb5saCYIZQ\nF/gWML22+Ym8KdUwIlwP/qbaUGQ/lQQHfj5vYLiZgpOwsXckAmVjiLym6E2NJzox\nql61uP0426zv8A8+WBN1pHBR/jnj7I5UH74CBlrpM54uuzuSaYh5UfmH9KVSkyq3\nGCb0m0xJHsFYYO4lg6B/eQ7wT3S+uqwbgOX70HXekQKBgQDeezSfor628j/jAZIn\nuTFPhaHnry0LQYdPBecjxrixMsYb4gHWpzEz2pYBLCtWPof5+TSBRfqwe5v2VSQN\norYe9RnzpRS6XenZ4TwnpgeqcmWNYN4bjRGB8ChIOUkr3J0ldmsrSBLa3SOXZ9rZ\nFrRWAh3Bo+5bKStq2B1OUzynMQKBgQDTF/8Ybx5Jtx/QEKlNk/1bnQ5srRWEv/yc\nNv9tg1RFDCc5/2IMAxPsP4LzKk8qnuMd9zVcNKqSRZ1JqMHPIzUUYm5z7GU0Risy\n+iRCc+VjxT9h/LsrXJl652BhD1PvJk5uQaVLDFh0IR+dnqKjTHcqp1MI8dI6yIRx\nEsk3k04d3QKBgBC1fBxJIr2mr/mikpF9LSDlzmUSGPXxc/IRZWygbhqQz6QkczLl\n16InVoC8Cn0tsRSrDLBwywUaI3p6pnyHrdnhWpOb4FSm3PtKGTR5GbZJZSsbDVNQ\nYvI5US0rcD1lEkBQBnh3r0LUvOmQGTWYqO6Uthtm7m3WR7Z8iKbrRXDhAoGADqE1\nHr5kvPsiC0t8UFIXVwgVfdapDSA5I6J0JWTarEZhWZWnd+mmsdLdAnlGL0//sY32\ndsN3pteIRRibBf4MqbMAsKwLf4n1aH0Jkklx9m4vLF1Vo3WxdWEfvtpPGN3wxZdr\nGz5pyvKYvFXIM8US5TPff1kzFrva4fNJWr6sxUkCgYEAgcBc6Vxt02LKcqgoiMNM\nL4Q+QqeG0UvU+IiSx49gQ9dwOAbGIwknRh7swqra4PIMBsPs5v/CHO0CqnWl2+fK\n4dCs+u2i88M2ayeQRx0nOjhH2DGMmUF+BUaXjP77mJzsu7YjgTwVPDptCEOcCwZx\nOlCAsQO8SlNROX8QyJ8+gSE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "serverless@serverless-video-transcode.iam.gserviceaccount.com",
+  "client_id": "112462675071765708730",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/serverless%40serverless-video-transcode.iam.gserviceaccount.com"
+}
