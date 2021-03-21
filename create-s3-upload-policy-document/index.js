@@ -1,18 +1,5 @@
 'use strict';
 
-/**
- * Created by Peter Sbarski
- * Updated by Mike Chambers
- * Updated by Julian Pittas
- * Last Updated: 28/02/2018
- *
- * Required Env Vars:
- * UPLOAD_BUCKET
- * SECRET_ACCESS_KEY
- * ACCESS_KEY_ID
- * UPLOAD_URI - https://s3.amazonaws.com
- */
-
 const AWS = require('aws-sdk');
 const crypto = require('crypto');
 

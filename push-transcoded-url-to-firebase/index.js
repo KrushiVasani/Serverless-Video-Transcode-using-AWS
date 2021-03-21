@@ -1,15 +1,10 @@
 'use strict';
 
-/**
- * Required Env Vars:
- * DATABASE_URL
- * S3_TRANSCODED_BUCKET_URL : https://s3.amazonaws.com/YOUR_TRANSCODED_BUCKET_NAME_HERE
- */
 
 const firebase = require('firebase-admin');
 const serviceAccount = require(`./key.json`);
 
-// save the URL to firebase
+
 firebase.initializeApp({
     credential: firebase.credential.cert(serviceAccount),
     databaseURL: process.env.DATABASE_URL

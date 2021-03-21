@@ -6,8 +6,6 @@
   "scripts": {
     "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.json *.log"
   },
-  "author": "Julian Pittas",
-  "license": "BSD-2-Clause",
   "dependencies": {
     "request": "^2.83.0",
     "request-promise": "^4.2.2"

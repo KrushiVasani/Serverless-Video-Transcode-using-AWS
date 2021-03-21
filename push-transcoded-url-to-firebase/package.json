@@ -9,7 +9,6 @@
   "dependencies": {
     "aws-sdk": "^2.204.0",
     "firebase-admin": "^8.2.0"
-  },
-  "author": "Julian Pittas",
-  "license": "BSD-2-Clause"
+  }
+
 }

@@ -1,18 +1,5 @@
 'use strict';
 
-
-/**
- * Created by Peter Sbarski
- * Updated by Mike Chambers
- * Updated by Julian Pittas
- * Last Updated: 27/02/2018
- *
- * Required Env Vars:
- * ELASTIC_TRANSCODER_REGION
- * ELASTIC_TRANSCODER_PIPELINE_ID
- */
-
-
 const AWS = require('aws-sdk');
 
 
@@ -26,7 +13,6 @@ const handler = (event, context, callback) => {
     console.log('Welcome');
     console.log('event: ' + JSON.stringify(event));
 
-    // Grab the pipeline ID from the environment variables and the key name from the event passed in
     const pipelineId = process.env.ELASTIC_TRANSCODER_PIPELINE_ID;
     const key = event.Records[0].s3.object.key;
 
@@ -36,8 +22,6 @@ const handler = (event, context, callback) => {
     // Remove the file extension
     const outputKey = sourceKey.split('.')[0];
 
-    // Build the parameters for the Job pipeline. 
-    // Reference: https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/ElasticTranscoder.html#createJob-property
     const params = {
         PipelineId: pipelineId,
         OutputKeyPrefix: outputKey + '/',
